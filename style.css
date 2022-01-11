@@ -4,57 +4,69 @@ body {
   margin: 0;
 }
 
+h1{
+  text-align: center;
+}
+
 
 header {
   text-align: center;
 }
 
+img {
+  display:block;
+  margin: 0 auto;
+  width: 90%
+}
+
+nav {
+  text-align: center;
+}
 
 /* Using decendant selector  */
-nav a{
-  padding-left: 10px;
-  padding-right: 10px;
+nav a {
+  padding: 0 10px;
   background-color: gray;
+  margin: 8px auto;
 }
 
-figure figcaption {
-  font-size: 70%;
+figcaption {
+  font-size: 12px;
   text-align: center;
 }
 
-#featured-property p {
-  width: 800px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
-section#featured-property img {
-  display:block;
-  margin: auto;
-}
 
-section#featured-property {
+
+
+#featured-property {
   margin: auto;
-  width: 50%;
   padding: 10px;
 }
 
 
-section#details {
+#details {
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-section#details div{ 
+
+
+
+
+
+
+
+#featured-property p {
+  width: 800px;
+  margin: 8px auto;
+  text-align: center;
+}
+
+#details div{ 
+  float: left;
   width: 25%;
   background-color: red;
   text-align: center;
 }
-
-
-
-
-
-
